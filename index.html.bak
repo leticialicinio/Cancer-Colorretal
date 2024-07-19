@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Câncer Colorretal</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            font-family: Bradley Hand, cursive;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0074D9;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            max-width: 100px;
+        }
+        nav {
+            background-color: #001f3f;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0074D9;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin-top: 20px; /* Espaço adicional para o botão de voltar ao topo */
+        }
+        .banner {
+            text-align: center;
+            background-color: #0074D9;
+            padding: 40px 0 40px 0;
+			margin: 0px;
+			border: 0px;
+            color: white;
+        }
+        .banner img {
+            max-width: 100px;
+        }
+        h1, h2, h4 {
+            text-align: center;
+            color: #001f3f;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        .content-section {
+            margin-bottom: 40px;
+        }
+        .content-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content-section ul li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #0074D9;
+        }
+        .fotos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center; /* Alinhar itens verticalmente */
+        }
+        .fotos figure {
+            margin: 10px;
+        }
+        .fotos img, .fotos video {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px; /* Espaço entre as imagens e vídeos */
+        }
+        footer {
+            background-color: #001f3f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            background-color: #0074D9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .back-to-top:hover {
+            background-color: #0056b3;
+        }
+		.menu{
+		text-align: center;
+		}
+		.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			}
+		.menu ul li {
+			display: inline-block; /* Para manter os itens em linha */}
+			
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/marcoazul.png" alt="Logo">
+    </header>
+	
+    <nav class="menu">
+		<ul>
+			<li><a href="#fatores">Fatores de Risco</a></li>
+			<li><a href="#sintomas">Sintomas Comuns</a></li>
+			<li><a href="#diagnostico">Diagnóstico</a></li>
+			<li><a href="#prevencao">Prevenção</a></li>
+			<li><a href="#tratamento">Tratamento</a></li>
+			<li><a href="#estadiamento">Estadiamento</a></li>
+			<li><a href="#dietas">Dietas e Nutrição</a></li>
+			<li><a href="#apoio">Apoio e Recursos</a></li>
+		</ul>
+    </nav>
+	
+    <main>
+        <div class="banner">
+            <img src="img/marcoazul.png" alt="Banner">
+            <h2>Mês de Conscientização e Prevenção do</h2>
+            <h1>Câncer Colorretal</h1>
+        </div>
+        <h4>O câncer colorretal, que afeta o cólon e o reto, é uma das principais causas de morte por câncer em todo o mundo!</h4>
+        
+        <div class="content-section" id="fatores">
+            <h2>Fatores de Risco:</h2>
+            <ul>
+                <li>Idade: Maior risco a partir dos 50 anos.</li>
+                <li>Histórico Familiar: Casos de câncer colorretal na família aumentam o risco.</li>
+                <li>Dieta: Alto consumo de carnes vermelhas e processadas.</li>
+                <li>Estilo de Vida: Sedentarismo, obesidade, tabagismo e consumo excessivo de álcool.</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/raiox.jpg" alt="Raio x">
+                </figure>
+                <video width="300" height="200" controls>
+                    <source src="video/videocancer.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <figure>
+                    <img src="img/Genetica.jpg" alt="Genética">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="sintomas">
+            <h2>Sintomas Comuns:</h2>
+            <ul>
+                <li>Sangue nas fezes.</li>
+                <li>Alteração nos hábitos intestinais.</li>
+                <li>Perda de peso inexplicada.</li>
+                <li>Dor abdominal.</li>
+                <li>Fadiga constante.</li>
+            </ul>
+            <div class="fotos">            
+                <figure>
+                    <img src="img/sintomas.jpg" alt="Sintomas">
+                </figure>
+                <figure>
+                    <img src="img/paciente.webp" alt="Paciente">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="diagnostico">
+            <h2>Diagnóstico:</h2>
+            <ul>
+                <li>Exames: Colonoscopia, sigmoidoscopia, FOBT, exame de sangue (CEA).</li>
+                <li>Biópsia: Confirmação do diagnóstico através da análise de tecido.</li>
+                <li>Prognóstico: Melhor resultado e maior chance de cura quando detectado cedo.</li>
+                <li>Sobrevivência: Aumenta significativamente com a detecção precoce e tratamento adequado.</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/diagnostico.jfif" alt="Diagnóstico">
+                </figure>
+                <figure>
+                    <img src="img/cancer.ia.webp" alt="Câncer ia">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="prevencao">
+            <h2>Prevenção:</h2>
+            <ul>
+                <li>Rastreamento: Colonoscopia, sigmoidoscopia, e teste de sangue oculto nas fezes (FOBT).</li>
+                <li>Dieta Saudável: Frutas, vegetais, grãos integrais e baixa ingestão de carnes processadas.</li>
+                <li>Atividade Física: Prática regular de exercícios.</li>
+                <li>Controle de Peso: Manter um peso saudável.</li>
+                <li>Evitar Fumo e Álcool: Parar de fumar e moderar o consumo de álcool.</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/prevencao.jpg" alt="Prevenção">
+                </figure>
+                <video width="300" height="200" controls>
+                    <source src="video/videoentrevista.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <figure>
+                    <img src="img/laço.jpeg" alt="Laço">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="tratamento">
+            <h2>Tratamento:</h2>
+            <ul>
+                <li>Cirurgia: Remoção do tumor e partes afetadas do cólon ou reto.</li>
+                <li>Radioterapia: Uso de radiação para destruir células cancerosas.</li>
+                <li>Quimioterapia: Uso de medicamentos para destruir células cancerosas.</li>
+                <li>Terapias Direcionadas: Medicamentos que atacam especificamente células cancerosas (inibidores de VEGF e EGFR).</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/tratamento.png" alt="Tratamento">
+                </figure>
+                <figure>
+                    <img src="img/cirugia.webp" alt="Cirurgia Robótica">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="estadiamento">
+            <h2>Estadiamento:</h2>
+            <ul>
+                <li>Estádio I: Tumor localizado na mucosa e submucosa do cólon.</li>
+                <li>Estádio II: Tumor se espalha pela parede do cólon, mas não atinge linfonodos.</li>
+                <li>Estádio III: Tumor se espalha para linfonodos regionais.</li>
+                <li>Estádio IV: Tumor se espalha para órgãos distantes (metástases).</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/estadio.jpg" alt="Estadios">
+                </figure>
+                <video width="300" height="200" controls>
+                    <source src="video/estadiamentovideo.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <figure>
+                    <img src="img/comoestadio.png" alt="Nutrição">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="dietas">
+            <h2>Dietas e Nutrição:</h2>
+            <ul>
+                <li>Alimentos Ricos em Fibras: Aumentam a saúde digestiva.</li>
+                <li>Frutas e Vegetais: Diversificam a dieta e oferecem antioxidantes.</li>
+                <li>Grãos Integrais: Reduzem o risco de câncer colorretal.</li>
+                <li>Evitar Carnes Processadas: Estar ciente da relação com o câncer.</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/dieta.webp" alt="Dietas">
+                </figure>
+                <figure>
+                    <img src="img/nutricao.webp" alt="Nutrição">
+                </figure>
+            </div>
+        </div>
+
+        <div class="content-section" id="apoio">
+            <h2>Apoio e Recursos:</h2>
+            <ul>
+                <li>Grupos de Apoio: Importância do suporte emocional.</li>
+                <li>Instituições: ONGs e organizações dedicadas ao câncer colorretal.</li>
+                <li>Informações: Sites confiáveis para mais detalhes sobre o câncer.</li>
+                <li>Profissionais de Saúde: Consulta regular com médicos e especialistas.</li>
+            </ul>
+            <div class="fotos">
+                <figure>
+                    <img src="img/apoio.png" alt="Apoio">
+                </figure>
+                <figure>
+                    <img src="img/recursos.png" alt="Recursos">
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados. | Câncer Colorretal: Juntos na luta contra essa doença!</p>
+    </footer>
+
+    <button class="back-to-top" onclick="topFunction()" title="Voltar ao topo">Topo</button>
+
+    <script>
+        // Botão de voltar ao topo
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            var mybutton = document.querySelector(".back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // Para Safari
+            document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
+        }
+    </script>
+</body>
+</html>
+	
